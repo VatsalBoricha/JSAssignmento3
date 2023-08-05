@@ -1,0 +1,92 @@
+body {
+    font-family: 'Times New Roman', serif;
+    color: #123456;
+    background-color: #85ff91;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Helvetica', sans-serif;
+    color: #654321;
+  }
+  
+  .toDoContainer {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  #newItem {
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 70%;
+  }
+  
+  #toDoButton {
+    padding: 10px 30px;
+    margin-top: 5px;
+    font-size: 16px;
+    background-color: #00c8ff;
+    color: rgb(243, 241, 237);
+    border: none;
+    border-radius: 3.5px;
+    cursor: pointer;
+  }
+  
+  #toDoButton:hover {
+    background-color: #00a0e0; 
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  
+  li.completed span {
+    text-decoration: line-through;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 12px; 
+    border: 2px solid #0e0808;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
+    font-size: 18px; 
+    font-weight: bold; 
+  }
+  
+  li.completed {
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    border: 2px solid black;
+    background-color: #efa98e;
+  }
+  
+  li button {
+    background-color: #00c8ff;
+    color: rgb(239, 244, 241);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  li button:hover {
+    background-color: #00a0e0; 
+  }
+  
